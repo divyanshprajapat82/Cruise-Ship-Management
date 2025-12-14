@@ -103,7 +103,7 @@ import { MdAppRegistration } from 'react-icons/md'
 import { TbUsers } from "react-icons/tb";
 import { loginContext } from '../context/MainContext'
 
-export default function layoutBar({ children }) {
+export default function LayoutBar({ children }) {
     const navPath = usePathname()
     const { userRole, profile } = useContext(loginContext)
 
