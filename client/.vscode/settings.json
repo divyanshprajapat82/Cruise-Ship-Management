@@ -1,0 +1,5 @@
+{
+    "editor.minimap.side": "right",
+    "workbench.sideBar.location": "left",
+    "workbench.tree.expandMode": "doubleClick"
+}
