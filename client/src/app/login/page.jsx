@@ -12,15 +12,6 @@ export default function page() {
     const [password, setPassword] = useState('')
     let { setUserRole, setToken, token } = useContext(loginContext)
 
-    // const searchParams = useSearchParams();
-    // const logoutFlag = searchParams.get("logout");
-
-    // // 👇 When logout happens, this refires the component
-    // useEffect(() => {
-    //     // Reset fields or state if needed
-    //     console.log("Login page reset because of logout");
-    // }, [logoutFlag]);
-
     let APIURL = process.env.NEXT_PUBLIC_APIBASEURL
 
     useEffect(() => {
