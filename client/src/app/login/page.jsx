@@ -21,6 +21,7 @@ export default function page() {
     //     console.log("Login page reset because of logout");
     // }, [logoutFlag]);
 
+    let APIURL = process.env.NEXT_PUBLIC_APIBASEURL
 
     useEffect(() => {
         if (token != "") {
