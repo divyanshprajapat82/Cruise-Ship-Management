@@ -170,11 +170,11 @@ export default function Header() {
                                     <button onClick={logOut} className='border p-2 w-full h-full bg-red-600 hover:bg-red-700 text-white rounded-[12px] transition-all duration-300 cursor-pointer'>LogOut</button>
                                 </div>
                                 :
-                                <button className='border p-2 h-full bg-blue-600 hover:bg-blue-700 text-white rounded-[12px] transition-all duration-300 cursor-pointer'>
-                                    <Link href={"/login"} onClick={() => setNavBar(false)}>
+                                <Link href={"/login"} className='w-full flex' onClick={() => setNavBar(false)}>
+                                    <button className='w-full border p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-[12px] transition-all duration-300 cursor-pointer'>
                                         LogIn
-                                    </Link>
-                                </button>
+                                    </button>
+                                </Link>
                             }
                             {/* </div> */}
                             {/* <button onClick={() => setNavBar(!navBar)} className="md:hidden text-[20px] text-gray-700 cursor-pointer">
