@@ -67,7 +67,7 @@ export default function Product({ items, index }) {
                                 <div className="text-3xl font-bold text-blue-600">₹{items.price}</div>
                             </div>
                         </div>
-                        <div className="text-sm text-gray-500 mb-2">Prepare time : {items.prepTime}</div>
+                        <div className="text-sm text-gray-500 mb-2">Prepare time : {items.prepTime} min</div>
                         <div className="flex items-center gap-2 mb-3">
                             <button onClick={() => setQty(qty - 1)} className="bg-gray-200 hover:bg-gray-300 px-3 py-2 rounded transition-colors cursor-pointer" onclick="decrementQuantity(${item.id})">
                                 <FaMinus />
