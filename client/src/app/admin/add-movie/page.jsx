@@ -50,7 +50,7 @@ export default function page() {
         let AddMovieObj = new FormData(e.target)
 
 
-        /
+        
         axios.post(`${APIURL}/ship/movie/add-movie`, AddMovieObj)
             .then((res) => res.data)
             .then((finalData) => {
