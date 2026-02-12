@@ -84,7 +84,7 @@ export default function page() {
         <>
             <div className="flex items-center justify-between mb-8">
                 <div>
-                    <h2 className="text-2xl font-bold text-slate-900 mb-2">Add New User</h2>
+                    <h2 className="text-2xl font-bold text-slate-900 mb-2">Add Movies</h2>
                     <p className="text-gray-600 text-base">Create a new user account with role and permissions.</p>
                 </div>
                 <Link href={'../admin/add-item'}>
